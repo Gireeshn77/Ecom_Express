@@ -94,19 +94,41 @@ public class TC_Login_001 extends BaseClass
 		Object[][] data = new Object[][]  {
 			{"userone","passone"},
 			{"usertwo","passtwo"},
-			{"userthree","passthree"}
+			{"userthree","passthree"},
+			{"userfour","passfour"},
+			{"userfive","passfove"}
 		};
 		 
 		return data;
 	}
+
+
 	
-	//new code test
+
+	//Example Four Indices  ------------>>>
 	
 	
+	@Test(dataProvider = "datasetfour")
+	public void BasicTestfour(String user , String password) throws Exception
+	{ 
+		System.out.println("user datasetfour from data provider -------->> "+ user);
+		System.out.println("password datasetfour from data provider -------->> "+ password);
+	}
 	
-	
-	
-	
+	@DataProvider(indices = {2,4}) 
+	public Object[][] datasetfour()
+	{
+		Object[][] data = new Object[][]  {
+			{"userone","passone"},
+			{"usertwo","passtwo"},
+			{"userthree","passthree"},
+			{"userfour","passfour"},
+			{"userfive","passfove"}
+		};
+		 
+		return data;
+	}
+
 	
 	
 	

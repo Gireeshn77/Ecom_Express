@@ -1,49 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="3" total="5" passed="2" failed="0" skipped="0">
+<testng-results ignored="4" total="6" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-02-04T15:53:36 IST" name="Default suite" finished-at="2025-02-04T15:54:05 IST" duration-ms="28744">
+  <suite started-at="2025-02-04T18:17:05 IST" name="Default suite" finished-at="2025-02-04T18:17:07 IST" duration-ms="2702">
     <groups>
     </groups>
-    <test started-at="2025-02-04T15:53:36 IST" name="Default test" finished-at="2025-02-04T15:54:05 IST" duration-ms="28744">
+    <test started-at="2025-02-04T18:17:05 IST" name="Default test" finished-at="2025-02-04T18:17:07 IST" duration-ms="2702">
       <class name="com.Ecom_Express.testCases.TC_Login_001">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.Ecom_Express.testCases.TC_Login_001@7c7a06ec]" started-at="2025-02-04T15:53:36 IST" name="setup" finished-at="2025-02-04T15:54:05 IST" duration-ms="28400" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.Ecom_Express.testCases.TC_Login_001@557caf28]" started-at="2025-02-04T18:17:05 IST" name="setup" finished-at="2025-02-04T18:17:07 IST" duration-ms="2368" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="BasicTesttwo(java.lang.String,java.lang.String)[pri:0, instance:com.Ecom_Express.testCases.TC_Login_001@7c7a06ec]" started-at="2025-02-04T15:54:05 IST" name="BasicTesttwo" data-provider="datasettwo" finished-at="2025-02-04T15:54:05 IST" duration-ms="7" status="PASS">
+        <test-method signature="BasicTestfour(java.lang.String,java.lang.String)[pri:0, instance:com.Ecom_Express.testCases.TC_Login_001@557caf28]" started-at="2025-02-04T18:17:07 IST" name="BasicTestfour" data-provider="datasetfour" finished-at="2025-02-04T18:17:07 IST" duration-ms="4" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Admin]]>
+                <![CDATA[userthree]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[admin123]]>
+                <![CDATA[passthree]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- BasicTesttwo -->
-        <test-method signature="BasicTesttwo(java.lang.String,java.lang.String)[pri:0, instance:com.Ecom_Express.testCases.TC_Login_001@7c7a06ec]" started-at="2025-02-04T15:54:05 IST" name="BasicTesttwo" data-provider="datasettwo" finished-at="2025-02-04T15:54:05 IST" duration-ms="2" status="PASS">
+        </test-method> <!-- BasicTestfour -->
+        <test-method signature="BasicTestfour(java.lang.String,java.lang.String)[pri:0, instance:com.Ecom_Express.testCases.TC_Login_001@557caf28]" started-at="2025-02-04T18:17:07 IST" name="BasicTestfour" data-provider="datasetfour" finished-at="2025-02-04T18:17:07 IST" duration-ms="5" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Admin]]>
+                <![CDATA[userfive]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[test123]]>
+                <![CDATA[passfove]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- BasicTesttwo -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.Ecom_Express.testCases.TC_Login_001@7c7a06ec]" started-at="2025-02-04T15:54:05 IST" name="teardown" finished-at="2025-02-04T15:54:05 IST" duration-ms="262" status="PASS">
+        </test-method> <!-- BasicTestfour -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.Ecom_Express.testCases.TC_Login_001@557caf28]" started-at="2025-02-04T18:17:07 IST" name="teardown" finished-at="2025-02-04T18:17:07 IST" duration-ms="239" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
