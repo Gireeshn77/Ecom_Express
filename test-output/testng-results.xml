@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="6" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-04T13:11:31 IST" name="Default suite" finished-at="2025-02-04T13:11:35 IST" duration-ms="3753">
+    <groups>
+    </groups>
+    <test started-at="2025-02-04T13:11:31 IST" name="Default test" finished-at="2025-02-04T13:11:35 IST" duration-ms="3753">
+      <class name="com.Ecom_Express.testCases.TC_Login_001">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.Ecom_Express.testCases.TC_Login_001@7c7a06ec]" started-at="2025-02-04T13:11:31 IST" name="setup" finished-at="2025-02-04T13:11:35 IST" duration-ms="3314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="BasicTestthree(java.lang.String,java.lang.String)[pri:0, instance:com.Ecom_Express.testCases.TC_Login_001@7c7a06ec]" started-at="2025-02-04T13:11:35 IST" name="BasicTestthree" data-provider="datasetthree" finished-at="2025-02-04T13:11:35 IST" duration-ms="11" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[userone]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passone]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BasicTestthree -->
+        <test-method signature="BasicTestthree(java.lang.String,java.lang.String)[pri:0, instance:com.Ecom_Express.testCases.TC_Login_001@7c7a06ec]" started-at="2025-02-04T13:11:35 IST" name="BasicTestthree" data-provider="datasetthree" finished-at="2025-02-04T13:11:35 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[usertwo]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passtwo]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BasicTestthree -->
+        <test-method signature="BasicTestthree(java.lang.String,java.lang.String)[pri:0, instance:com.Ecom_Express.testCases.TC_Login_001@7c7a06ec]" started-at="2025-02-04T13:11:35 IST" name="BasicTestthree" data-provider="datasetthree" finished-at="2025-02-04T13:11:35 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[userthree]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passthree]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BasicTestthree -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.Ecom_Express.testCases.TC_Login_001@7c7a06ec]" started-at="2025-02-04T13:11:35 IST" name="teardown" finished-at="2025-02-04T13:11:35 IST" duration-ms="296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.Ecom_Express.testCases.TC_Login_001 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
