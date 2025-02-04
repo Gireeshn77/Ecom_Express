@@ -130,6 +130,36 @@ public class TC_Login_001 extends BaseClass
 	}
 
 	
+
+
+	//Example Five if we have n number of test method arguments like username,password,etc providing n number of arguments is not advisable  ------------>>>
+	//for that we can go with single dimension array as argument
+	
+	@Test(dataProvider = "datasetfive")
+	public void BasicTestfive(String[] s) throws Exception
+	{ 
+		System.out.println("user data col1 set from data provider -------->> "+ s[0]);
+		System.out.println("user data col2 set from data provider -------->> "+ s[1]);
+		System.out.println("user data col3 set from data provider -------->> "+ s[2]);
+		System.out.println("user data col4 set from data provider -------->> "+ s[3]);
+		
+		
+	}
+	
+	@DataProvider(indices = {0,4}) 
+	public String[][] datasetfive()
+	{
+		String[][] data = new String[][]  {
+			{"userone","passone","studentone","branchone"},
+			{"usertwo","passtwo","studenttwo","branchtwo"},
+			{"userthree","passthree","studentthree","branchthree"},
+			{"userfour","passfour","studentfour","branchfour"},
+			{"userfive","passfove","studentfour","branchfour"}
+		};
+		 
+		return data;
+	}
+
 	
 	
 	
