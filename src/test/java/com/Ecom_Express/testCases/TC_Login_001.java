@@ -160,9 +160,35 @@ public class TC_Login_001 extends BaseClass
 		return data;
 	}
 
+	//Example Six :  A jagged array (or irregular 2D array) in TestNG’s @DataProvider means that each test case row can have a different number of parameters.
 	
+
+	@Test(dataProvider = "datasetsix")
+	public void BasicTestsix(Object[] s) throws Exception
+	{ 
+		for(int i=0;i<s.length ;i++) 
+		{
+			System.out.println("jagged array Row "+ s[i]);
+		}
+		
+		System.out.println(" -------->> ");
 	
+	}
 	
+	@DataProvider() 
+	public Object[][] datasetsix()
+	{
+		Object[][] data = new Object[][]  {
+			{"userone","passone",1234,"branchone"},
+			{"usertwo","passtwo","branchtwo"},
+			{"userthree","passthree",76543,"branchthree"},
+			{"userfour",98765,"branchfour"},
+			{"userfive"}
+		};
+		 
+		return data;
+	}
+
 	
 	
 	
