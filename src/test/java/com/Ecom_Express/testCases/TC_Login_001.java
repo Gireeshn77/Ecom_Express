@@ -27,7 +27,6 @@ public class TC_Login_001 extends BaseClass
 		lp.signin();
 		Thread.sleep(5000); 
 		System.out.println("sign in button clicked -------->>");
-		System.out.print("HoneyWell");
 		 
 	}
 	
@@ -161,7 +160,7 @@ public class TC_Login_001 extends BaseClass
 		return data;
 	}
 
-	//Example Six :  A jagged array (or irregular 2D array) in TestNG’s @DataProvider means that each test case row can have a different number of parameters.
+	//Example Six :  A jagged array (or irregular 2D array) in TestNGâ€™s @DataProvider means that each test case row can have a different number of parameters.
 	
 
 	@Test(dataProvider = "datasetsix")
