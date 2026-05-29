@@ -41,6 +41,22 @@ public class ReadConfig
 		return password;
 	}
 	
+	//------------------- DB credets below
+	
+	public String getDBURL()
+	{
+	    return pro.getProperty("db.url");
+	}
+
+	public String getDBUser()
+	{
+	    return pro.getProperty("db.username");
+	}
+
+	public String getDBPassword()
+	{
+	    return pro.getProperty("db.password");
+	}
 	
 	
 

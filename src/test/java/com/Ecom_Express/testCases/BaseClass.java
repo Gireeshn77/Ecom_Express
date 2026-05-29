@@ -121,7 +121,8 @@ public class BaseClass {
 		return emp;
 	}
 
-	public LoginData getLoginData(int agentId) throws Exception {
+	// rename for reference sake
+	public LoginData getLoginData_dp(int agentId) throws Exception {
 
 		Class.forName("com.mysql.cj.jdbc.Driver");
 
