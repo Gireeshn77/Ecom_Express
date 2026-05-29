@@ -17,7 +17,7 @@ public class Loginpage
 	
 	 @FindBy(name="username") WebElement username ;
 	 @FindBy(name="password") WebElement password ;
-	 @FindBy(name="login") WebElement signinbtn ;
+	 @FindBy(id="submit") WebElement signinbtn ;
 	 
 	 public void setusername(String uname)
 	 {

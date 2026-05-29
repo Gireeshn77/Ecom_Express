@@ -1,14 +1,13 @@
 package com.Ecom_Express.testCases;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
-import org.openxmlformats.schemas.drawingml.x2006.main.CTRegularTextRun;
-import org.testng.Assert;
+import java.time.Duration;
+
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import com.Ecom_Express.pageObjects.Loginpage;
 import com.Ecom_Express.utilities.ExcelDataSupplier;
+import com.Ecom_Express.utilities.RetryTest;
  
 public class TC_Login_001 extends BaseClass
 {
@@ -27,15 +26,18 @@ public class TC_Login_001 extends BaseClass
 		lp.signin();
 		Thread.sleep(5000); 
 		System.out.println("sign in button clicked -------->>");
-		 
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(2000));
+		
 	}
 	
 	//Example one --------->>>
 	 
-	@Test(dataProvider = "Onedata")
+	@Test(retryAnalyzer = RetryTest.class)
 	public void BasicTest(String user) throws Exception
 	{
-		System.out.println("user from data provider -------->> "+ user);		 
+		System.out.println("user from data provider -------->> "+ user);	
+		 assert false;
+
 	}
 	
 	
@@ -129,8 +131,6 @@ public class TC_Login_001 extends BaseClass
 		return data;
 	}
 
-	
-
 
 	//Example Five if we have n number of test method arguments like username,password,etc providing n number of arguments is not advisable  ------------>>>
 	//for that we can go with single dimension array as argument
@@ -189,11 +189,6 @@ public class TC_Login_001 extends BaseClass
 		return data;
 	}
 
-	
-	// new statement added 06/02
-	
-	//new line of code
-	
 	
 	
 	
